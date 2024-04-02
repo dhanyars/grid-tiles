@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/grid-tiles/static/css/main.a4369457.css",
+    "main.js": "/grid-tiles/static/js/main.1d2118a4.js",
+    "index.html": "/grid-tiles/index.html",
+    "main.a4369457.css.map": "/grid-tiles/static/css/main.a4369457.css.map",
+    "main.1d2118a4.js.map": "/grid-tiles/static/js/main.1d2118a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4369457.css",
+    "static/js/main.1d2118a4.js"
+  ]
+}
