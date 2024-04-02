@@ -1,0 +1,73 @@
+@import "reset-css";
+
+body {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-family: Avenir Next, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  border: solid 1px #ddd;
+}
+
+section {
+  text-align: center;
+}
+.pagination {
+  padding: 40px 0;
+}
+
+.tile {
+  &Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+
+  &Item {
+    border: solid 1px #ccc;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 20px;
+    background: #f9fafb;
+  }
+
+  &Title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &Image {
+    width: 100%;
+    height: 200px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &Search {
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
