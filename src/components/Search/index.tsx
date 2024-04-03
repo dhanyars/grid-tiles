@@ -41,6 +41,7 @@ export const Search: React.FC<searchProps> = ({ tile, setTile }) => {
         type="text"
         onChange={handleSearchInput}
         placeholder="search for a tile"
+        data-testid="search"
       />
       {noResults && <div className={styles.tileSearch}>No search results</div>}
     </div>

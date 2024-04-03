@@ -2,9 +2,10 @@
   "name": "learn-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dhanyars.github.io/grid-tiles",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/user-event": "^14.0.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.93",
     "@types/react": "^18.2.73",
@@ -12,6 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-paginated-list": "^1.1.6",
+    "react-responsive-pagination": "^2.4.2",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "reset-css": "^5.0.2",
@@ -20,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +50,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/react": "^14.2.2",
+    "gh-pages": "^6.1.1",
     "sass": "^1.72.0"
   }
 }
