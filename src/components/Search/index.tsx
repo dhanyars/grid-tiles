@@ -4,6 +4,7 @@ import styles from "../../index.module.scss";
 interface searchProps {
   tile: tile[];
   setTile: (x: tile[]) => void;
+  setCurrentPage: (x: number) => void;
 }
 
 interface tile {
@@ -12,7 +13,11 @@ interface tile {
   imagePath: string;
 }
 
-export const Search: React.FC<searchProps> = ({ tile, setTile }) => {
+export const Search: React.FC<searchProps> = ({
+  tile,
+  setTile,
+  setCurrentPage,
+}) => {
   const [searchQuery, setSearchQuery] = React.useState("");
   const [noResults, setNoResults] = React.useState(false);
 
@@ -30,6 +35,7 @@ export const Search: React.FC<searchProps> = ({ tile, setTile }) => {
     setTile(newData);
     if (newData.length > 0) {
       setNoResults(false);
+      setCurrentPage(1);
     } else {
       setNoResults(true);
     }
