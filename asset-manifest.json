@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/grid-tiles/static/css/main.a4369457.css",
-    "main.js": "/grid-tiles/static/js/main.1d2118a4.js",
+    "main.css": "/grid-tiles/static/css/main.b8365d5d.css",
+    "main.js": "/grid-tiles/static/js/main.caaf2587.js",
     "index.html": "/grid-tiles/index.html",
-    "main.a4369457.css.map": "/grid-tiles/static/css/main.a4369457.css.map",
-    "main.1d2118a4.js.map": "/grid-tiles/static/js/main.1d2118a4.js.map"
+    "main.b8365d5d.css.map": "/grid-tiles/static/css/main.b8365d5d.css.map",
+    "main.caaf2587.js.map": "/grid-tiles/static/js/main.caaf2587.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4369457.css",
-    "static/js/main.1d2118a4.js"
+    "static/css/main.b8365d5d.css",
+    "static/js/main.caaf2587.js"
   ]
 }
